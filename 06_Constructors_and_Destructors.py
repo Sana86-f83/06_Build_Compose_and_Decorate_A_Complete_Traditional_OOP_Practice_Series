@@ -7,14 +7,13 @@ print(f"""\n\t\t\t06. Constructors and Destructors
 """)
 
 class Logger():
-
+        # Constructor
     def __init__(self):
         print("\t\t\tAssalam u ALaikum  ,Object created")
-
+        
+        # Destructor
     def __del__(self):
         print("\t\t\tGood bye,object end ")
-
-
 
 if __name__ == "__main__":
     print("\t\t\tOutput....\n")
